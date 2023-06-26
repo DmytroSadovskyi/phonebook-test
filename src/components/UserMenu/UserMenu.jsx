@@ -11,7 +11,7 @@ const UserMenu = () => {
 
   return (
     <Wrapper>
-      <UserName>Welcome {user?.name}</UserName>
+      <UserName>Welcome, {user?.name}</UserName>
       <IconButton onClick={() => dispatch(logOut())}>
         <LogoutIcon />
       </IconButton>
