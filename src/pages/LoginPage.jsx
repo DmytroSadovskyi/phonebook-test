@@ -4,6 +4,7 @@ import { useSelector } from 'react-redux';
 import { selectError } from 'redux/auth/selectors';
 const LoginPage = () => {
   const error = useSelector(selectError);
+
   return (
     <main>
       <section>
